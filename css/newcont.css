@@ -1,0 +1,67 @@
+@import url("header/header.css");
+@import url("body/left.css");
+@import url("body/right.css");
+@import url("footer/footer.css");
+
+div.main {
+		width:722px;
+		min-height:500px;
+		overflow:visible;
+		float:left;
+		margin:10;
+		border:4px double gray;
+		border-radius:20px;
+}
+a { color:gray;}
+/*content*/	
+.newcont {
+		padding:0 10 10 16;
+		width:696px;
+		height:auto;
+		float:left;
+}	
+.last_added {
+		text-align:center;
+		color:#3399FF;
+		font:30px impact;
+		margin:10 0 20 0;
+		text-shadow:1px 1px 1px black;
+}
+.top {
+		display:block;
+		padding:1;
+		float:left;
+		width:170px;
+		height:300px;
+		text-align:center;
+		font:12px verdana;
+}
+a:hover {
+		color:#f26702;
+}
+.rowi {
+		background-color: #F0F0F0;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size:150px 200px; 
+		border: 1px solid #CCCCCC;
+		cursor: pointer;
+		height: 200px;
+		margin: 1 auto 1 auto;
+		width: 150px;
+}	
+.addons {
+		width:144px;
+		height:auto;
+		margin:0 auto 0 auto;
+		color:gray;
+}
+.mtitle {
+		font:16px impact;
+		text-align:center;
+		width:170px;
+		height:auto;
+		margin:5 auto 0 auto;
+}
+/*content*/		
+		

@@ -1,0 +1,155 @@
+a { 
+		text-decoration:none;
+		color:gray;
+}
+body { 
+		min-width:1200px;
+		height:auto;
+		margin:0;
+		background:url("/site/images/header/bg.png") repeat scroll;
+}
+
+div.wrap {
+		background:#ccccff;
+		margin-right:auto;
+		margin-left:auto;
+		width:1200px;
+		min-height:800px;
+		box-shadow: 0 0 15px #333333;
+}
+
+div.body {
+		width:1200px;
+		min-height:500px;
+		overflow:auto;
+}
+		
+div.header {
+		width:1200px;
+		height:150px;
+		background:#6666cc;
+}
+		
+/*header*/
+div.logo {
+		height:150px;
+		width:200px;
+		float:left;
+}
+.logo a {
+		background: url("/site/images/header/logo.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+		display: block;
+		height: 120px;
+		margin: 5 15 25 15;
+		width: 170px;
+		float:left;
+}
+span.title {
+		display:block;
+		font:bold italic 30px cursive;
+		margin:100 0 0 0;
+		text-align:center;
+		text-shadow:1px 1px 1px black;
+		color:white;
+}
+div.hc {
+		font-size: 12px;
+		height: 150px;
+		width:750px;
+		text-align: left;
+		float:left;
+		margin:0;
+		padding:0;
+}
+.search {
+		width:600px;
+		height:50px;
+		font:italic bold 18px cursive;
+		color:white;
+		text-align: center;
+		margin:70 auto 40 auto;
+		padding:0;
+}
+.i {
+		background: white;
+		border: 2px solid #FAC8A4;
+		color: black;
+		font: 14px sans-serif;
+		padding: 0 0 0 20px;
+		text-align: left;
+		margin:10 0 10 0;
+		width: 500px;
+		height:30px;
+}
+.go {
+		border: 2px solid gold;
+		width: 80px;
+		height:30px;
+		margin:10 0 10 0;
+		background:#ffff33;
+		color:#003399;
+		font:bold 16px sans-serif;
+}
+.rh {
+		width:239;
+		height:50px;
+		padding:60 0 40 0;
+		float:right;
+		border-left:1px solid silver;
+}
+.reg {
+		display:block;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+}
+.reg li {
+		margin:10 10 10 10;
+		float:left;
+		color:orange;
+		font: 20px sans-serif;
+}
+.reg a {
+		color:orange;
+		font: 20px sans-serif;
+		text-decoration:underline;
+}
+.reg a:hover {
+		color:gold;
+}
+
+
+/* =====================  Login  ========================= */
+.profile_img {
+		background: url("/site/images/header/profile.png") 0px 0px / 80px 80px no-repeat scroll;
+		border: 2px solid orange;
+		width: 80px;
+		height: 80px;
+		margin: 30 5 10 10;
+		float: left;
+}
+
+.username {
+		overflow: auto;
+		width: 129px;
+		height: 40px;
+		margin: 60 5 20 0;
+		float: left;
+		text-align:center;
+		font: bold 14pt verdana;
+		color: gold;
+}
+
+.logout {
+		clear: both;
+		width: 70px;
+		height: 20px;
+		margin: 0px auto;
+		font-size: 14pt;
+		text-align: center;
+}
+.logout a {
+		color: red;
+}
+
+/*HEADER*/

@@ -1,0 +1,90 @@
+@import url("header/header.css");
+@import url("body/left.css");
+@import url("body/right.css");
+@import url("footer/footer.css");
+
+div.main {
+		width:722px;
+		min-height:500px;
+		overflow:visible;
+		float:left;
+		margin:10;
+		border:4px double gray;
+		border-radius:20px;
+		background:white;
+}
+
+/*content*/	
+.info {
+		padding:10px;
+		height:auto;
+		font:13px verdana;
+}
+.info a {
+		color:gray;
+}		
+.infob a {
+		color:gray;
+		font-weight:bold;
+}
+.info a:hover {
+		color:orange;
+}
+.h1 {
+		color: #F26702;
+		font-size: 20px;
+		font-weight: bold;
+		margin: 2px 0 0 10px;
+}
+.h2 {
+		color: #666666;
+		font-size: 16px;
+		font-weight: bold;
+		margin: 2px 0 0 30px;
+}
+.cover {
+		border: 2px solid #EBEBEB;
+		float: left;
+		padding: auto;
+		margin:5px;
+		width:300px;
+		height:400px;
+}
+.infob {
+		float: left;
+		margin: 10px 5px 5px 10px;
+		width: 360px;
+		height:400px;
+}
+.tbl td {
+		border: 0 none;
+		border-collapse: collapse;
+		border-bottom: 1px solid #EEEEEE;
+}
+.tbl .l {
+		color: #F26702;
+		text-align: right;
+		padding:0 10;
+}
+.descr {
+		font-size: 13px;
+		margin: 20 auto 0 auto;
+		text-align: justify;
+		width:650px;
+		height:auto;
+		padding:10px;
+}
+.actors {
+		margin:0 10 30 10;
+}
+.actors table {
+		border-collapse: collapse;
+		margin: 5px 0 0 20px;
+}
+.actors .l, .actors .r {
+		width: 200px;
+		padding:2 30 2 10;
+		border-bottom:1px solid #EEEEEE;
+}
+/*content*/		
+		

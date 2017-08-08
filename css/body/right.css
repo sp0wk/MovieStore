@@ -1,0 +1,42 @@
+div.right {
+		width:250px;
+		float:right;
+}
+		
+/*news*/
+.news {
+		height:auto;
+		width:auto;
+		margin:10px;
+		padding:10;
+		border:1px solid black;
+		background:white;
+		font: 11px verdana;
+}	
+.name {
+		font:24px impact;
+		text-align:center;
+		color:#3399ff;
+		text-shadow:1px 1px 1px black;
+}
+.blk {
+		border-top:1px solid silver;
+		text-align:left;
+}
+.blk b {
+		color: #444444;
+		display: block;
+		margin: 0 0 5;
+		padding: 10px 0 0;
+		font:bold 11px verdana;
+}
+.blk a {
+		display:block;
+		width:100%;
+		margin:0 0 10;
+		color:gray;
+}
+.blk a:hover {
+		color:orange;
+}
+/*news*/

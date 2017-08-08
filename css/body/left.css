@@ -1,0 +1,85 @@
+div.left {
+		width:200px;
+		height:auto;
+		margin:0;
+		float:left;
+}
+		
+/*Left Column menu style begin*/
+div.lmenu {
+		width:190px;
+		height:auto;
+		margin:30 0 0 10;
+		position:relative;
+}
+.lmenu a {
+		display:block;
+		font: 24px impact;
+		color:#ffff99;
+		height:45px;
+		background: url("/site/images/body/lmenu_btn.png") no-repeat scroll -1px top rgba(0, 0, 0, 0);
+		text-align: center;
+		text-shadow:1px 1px 1px black;
+		position:relative;
+		z-index:1;
+}	
+#menutext {
+		display:block;
+		padding:5 0 0 0;
+}
+.lmenu a:hover {
+		display:block;
+		background:url("/site/images/body/lmenu_btn_over.png") no-repeat scroll -1px top rgba(0, 0, 0, 0);
+}
+#itempointer {
+		width:174px;
+		margin: 0 auto 0 auto;
+		display:block;
+		background:url("/site/images/body/mp.png") no-repeat scroll -1px top rgba(0, 0, 0, 0);
+		height:10px;
+		position:absolute;
+		top:85px;
+		left:5%;
+		z-index:2;
+}		
+#menuitems {
+		display:block;
+		background:#666666;
+		height:0px;
+		width:170px;
+		margin:0 10 0 10;
+		position:absolute;
+		top:85px;
+		z-index:2;
+		overflow:hidden;
+		opacity:0.95;
+}	
+#mb {
+		position:relative;
+		z-index:5;
+		margin:0 0 7 0;
+}
+#genrelist {
+		list-style-type:none;
+		padding:0;
+		margin:0;
+}
+#genrelist li {
+		border-bottom:1px solid #cccccc;
+}
+#genrelist a {
+		height:25px;
+		text-align:center;
+		font: 15px cursive;
+		color:white;
+		text-decoration:none;
+		display:block;
+		background:none;
+}
+#genrelist a:hover {
+		color:gold;
+		text-decoration:none;
+		opacity:0.8;
+		background:#9999cc;
+}
+/*Left Column menu style end*/

@@ -1,0 +1,107 @@
+@import url("header/header.css");
+@import url("body/left.css");
+@import url("body/right.css");
+@import url("footer/footer.css");
+
+div.main {
+		width:722px;
+		min-height:500px;
+		overflow:visible;
+		float:left;
+		margin:10;
+		border:4px double gray;
+		border-radius:20px;
+}
+a { color:gray;}
+/*content*/	
+.mcont {
+		padding:10;
+		width:696px;
+		height:auto;
+}	
+.ptitle {
+		text-align:center;
+		text-shadow:1px 1px 1px black;
+		color:#3399FF;
+		font:32px impact;
+		margin:10 0 10 0;
+}
+.mitem {
+		width:696px;
+		height:230px;
+		margin:10 0 10 0;
+		background:#9999cc;
+		border:1px solid black;
+		border-radius:10px;
+		position:relative;
+}
+.bleft {
+		width:230px;
+		padding:30 0 30 20;
+		float:left;
+		font:14px verdana;
+}
+.mtitle {
+		font:bold 24px sans-serif;
+		margin:0 0 30 0;
+		text-shadow:1px 1px 1px black;
+}
+.mtitle a {
+		color:gold;
+}
+.mtitle a:hover {
+		color:orange;
+}
+.addons {
+		width:350px;
+		height:100px;
+		margin:0 0 0 10;
+		text-align:left;
+		color:#333333;
+}
+.bright {
+		padding:30 5 0 0;
+		width:275;
+		height:210;
+		float:left;
+}
+.y, .q {
+		border:1px solid black;
+		font:bold 14px sans-serif;
+		float:right;
+		text-align:center;
+		opacity:0.6;
+		margin:2;
+}
+.y {
+		width:50px;
+}
+.q {
+		width:90px;
+}
+.nn {
+		float:left;
+		margin:0 10 0 0;
+		font:bold 24px verdana;
+		color:silver;
+}
+.cover {
+		display:block;
+		width:150;
+		height:200;
+		padding:20 10 10 6;
+		float:right;
+}
+.cover_img {
+		background-color: #F0F0F0;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size:150px 200px; 
+		border: 1px solid black;
+		cursor: pointer;
+		height: 180px;
+		margin: 1 auto 1 auto;
+		width: 140px;
+}
+/*content*/		
+		

@@ -1,0 +1,45 @@
+@import url("header/header.css");
+@import url("body/left.css");
+@import url("body/right.css");
+@import url("footer/footer.css");
+
+div.main {
+		width:722px;
+		min-height:500px;
+		overflow:visible;
+		float:left;
+		margin:10;
+		border:4px double gray;
+		border-radius:20px;
+}
+
+/*content*/	
+.topcont {
+		width:auto;
+		margin:10;
+}
+.ptitle {
+		margin:10 0 10 0;
+		text-align:center;
+		text-shadow:1px 1px 1px black;
+		font: bold 30px verdana;
+		color:#FFA500;
+}
+.topmovies {
+		width:500px;
+		margin:30 auto 10 auto;
+}
+.topmovies td {
+		border-bottom:0px solid black;
+		padding:5 5 5 10;
+}
+.topmovies td a {
+		text-decoration:none;
+		font:18px cursive;
+		color:#545454;
+}		
+.topmovies td a:hover {
+		color:black;
+}
+/*content*/		
+		
