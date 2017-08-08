@@ -25,21 +25,31 @@ div.main {
 		font: bold 30px verdana;
 		color:#FFA500;
 }
-.topmovies {
+#topmovies {
 		width:500px;
 		margin:30 auto 10 auto;
 }
-.topmovies td {
+#topmovies td {
 		border-bottom:0px solid black;
-		padding:5 5 5 10;
+		padding: 5px;
 }
-.topmovies td a {
+#topmovies td a {
 		text-decoration:none;
 		font:18px cursive;
 		color:#545454;
+		margin-left: 10px;
 }		
-.topmovies td a:hover {
+#topmovies td a:hover {
 		color:black;
+}
+.mrating {
+		text-align: center;
+		font: bold 12pt Verdana;
+		padding: 5px;
+}
+.chooseRating {
+		width: 500px;
+		margin: 20px auto;
 }
 /*content*/		
 		
